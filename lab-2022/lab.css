@@ -1,0 +1,28 @@
+body{
+    /* position:absolute; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;  
+    color:white;
+}
+h1{
+    color:#6AA84F;
+}
+.whatuse{
+    /* position:absolute; */
+    top:120px;
+    font-size: 20px;
+}
+.wt{
+    background-color: #6AA84F;
+    color:white;
+    font-size:25px;
+}
+.list{
+    /* background-color: #DCB6F2; */
+    font-size: 16px;
+}
+.datext{
+    /* background-color: #DCB6F2; */
+    font-size: 16px;
+    /* width:300px; */
+}
