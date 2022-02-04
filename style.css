@@ -1,0 +1,14 @@
+body{
+    position:absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color:black;
+    font-size: 30px;
+    left:3%;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
