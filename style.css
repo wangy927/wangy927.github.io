@@ -1,14 +1,29 @@
 body{
-    position:absolute;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     background-color:black;
     font-size: 30px;
     left:3%;
 }
 h1{
+    position:absolute;
     color: white;
+    left:38px;
 }
 h3{
     color: white;
+    border: 1px solid white;
+    text-align: center;
+    width:150px;
+}
+.lab{
+    position:absolute;
+    top:180px;
+    left:350px;
+}
+.studio{
+    position:absolute;
+    top:180px;
+    left:30px;
 }
