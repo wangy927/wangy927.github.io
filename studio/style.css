@@ -1,6 +1,7 @@
     body {
         padding: 0px;
         margin: 0px;
+        cursor: pointer;
     }
     
     .container {
@@ -226,7 +227,13 @@
         font-family: monospace;
         font-size: 13px;
         right: 3%;
-        animation: blink-animation 0.8s steps(5, start) infinite;
+        /* animation: blink-animation 0.8s steps(5, start) infinite;
+        -webkit-animation: blink-animation 0.8s steps(5, start) infinite; */
+    }
+    
+    .time1:hover {
+        color: black;
+        animation: blink-animation 0.5s steps(5, start) infinite;
         -webkit-animation: blink-animation 0.8s steps(5, start) infinite;
     }
     
@@ -300,16 +307,31 @@
     #time1 {
         position: absolute;
         top: 21%;
+        color: #ff626f;
+    }
+    
+    #time1:hover {
+        color: black;
     }
     
     #time2 {
         position: absolute;
         top: 51%;
+        color: #ff626f;
+    }
+    
+    #time2:hover {
+        color: black;
     }
     
     #time3 {
         position: absolute;
         top: 81%;
+        color: #ff626f;
+    }
+    
+    #time3:hover {
+        color: black;
     }
     
     #line12 {
@@ -366,16 +388,31 @@
     #time12 {
         position: absolute;
         top: 21%;
+        color: #8ae723;
+    }
+    
+    #time12:hover {
+        color: black;
     }
     
     #time22 {
         position: absolute;
         top: 51%;
+        color: #8ae723;
+    }
+    
+    #time22:hover {
+        color: black;
     }
     
     #time32 {
         position: absolute;
         top: 81%;
+        color: #8ae723;
+    }
+    
+    #time32:hover {
+        color: black;
     }
     
     #line13 {
@@ -432,16 +469,31 @@
     #time13 {
         position: absolute;
         top: 21%;
+        color: #626fff;
+    }
+    
+    #time13:hover {
+        color: black;
     }
     
     #time23 {
         position: absolute;
         top: 51%;
+        color: #626fff;
+    }
+    
+    #time23:hover {
+        color: black;
     }
     
     #time33 {
         position: absolute;
         top: 81%;
+        color: #626fff;
+    }
+    
+    #time33:hover {
+        color: black;
     }
     
     #line14 {
@@ -499,16 +551,31 @@
     #time14 {
         position: absolute;
         top: 21%;
+        color: #e223e7;
+    }
+    
+    #time14:hover {
+        color: black;
     }
     
     #time24 {
         position: absolute;
         top: 51%;
+        color: #e223e7;
+    }
+    
+    #time24:hover {
+        color: black;
     }
     
     #time34 {
         position: absolute;
         top: 81%;
+        color: #e223e7;
+    }
+    
+    #time34:hover {
+        color: black;
     }
     
     .green1 {
@@ -714,7 +781,6 @@
             transform: translate(1px, -2px) rotate(-1deg);
         }
     }
-    
     /* .intropage {
         position: absolute;
         z-index: 4;
