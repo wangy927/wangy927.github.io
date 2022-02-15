@@ -4,11 +4,40 @@ body {
     width: 450px;
 }
 
+.title {
+    border: 1px solid black;
+}
+
+#one {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 450px;
+    text-align: center;
+}
+
+#two {
+    position: absolute;
+    right: 30px;
+    width: 450px;
+    top: 350px;
+    text-align: center;
+}
+
+#three {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    width: 450px;
+    text-align: center;
+}
+
 .button {
     position: absolute;
     background-color: black;
-    width: 30px;
-    height: 30px;
-    right: 10px;
-    top: 10px;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    top: 20px;
+    text-align: center;
 }
