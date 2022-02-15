@@ -1,12 +1,10 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 
-.discription {
-    width: 400px;
-}
+
+/* .discription {} */
 
 .button {
     position: absolute;
