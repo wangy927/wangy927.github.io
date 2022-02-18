@@ -1,32 +1,27 @@
-body {
+body{
     /* position:absolute; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: black;  
+    color:white;
 }
-
-h1 {
-    color: #6AA84F;
-}
-
-.whatuse {
+h1{
+    color:#6AA84F;
+}s
+.whatuse{
     /* position:absolute; */
-    top: 120px;
+    top:120px;
     font-size: 20px;
 }
-
-.wt {
+.wt{
     background-color: #6AA84F;
-    color: white;
-    font-size: 25px;
+    color:white;
+    font-size:25px;
 }
-
-.list {
+.list{
     /* background-color: #DCB6F2; */
     font-size: 16px;
 }
-
-.datext {
+.datext{
     /* background-color: #DCB6F2; */
     font-size: 16px;
     /* width:300px; */
