@@ -28,7 +28,7 @@ body {
     position: relative;
     padding: 2rem;
     margin: 0rem;
-    height: 300vh;
+    height: 235vh;
 }
 
 .nav-bar {
@@ -232,31 +232,26 @@ h2:hover {
     }
 }
 
-.box-container {
-    min-height: 50vh;
-    display: grid;
-    flex-direction: column;
+.column-one {
+    background-color: rgb(215, 238, 116);
+    display: flex;
+    flex: 50%;
+    height: 800px;
+    padding: 150px;
     justify-content: space-between;
 }
 
-.box1 {
-    background-color: blueviolet;
+.column-two {
+    background-color: pink;
+    display: flex;
+    flex: 50%;
+    height: 400px;
+    padding: 100px;
+    justify-content: center;
 }
 
-.box2 {
-    background-color: rgb(243, 137, 137);
-}
-
-.box3 {
-    background-color: rgb(168, 84, 84);
-}
-
-.box4 {
-    background-color: rgb(102, 23, 23);
-}
-
-.box {
-    font-size: 3rem;
-    text-align: center;
-    width: calc(100%/2);
+.video {
+    margin: 0;
+    background-color: rgb(215, 238, 116);
+    padding: 5rem;
 }
