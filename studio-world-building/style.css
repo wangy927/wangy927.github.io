@@ -1,0 +1,90 @@
+/* @font-face {
+    font-family: De-Bambeet;
+    src: url(./font/De-Bambeet.otf);
+} */
+
+ul {
+    text-align: left;
+    color: rgb(187, 179, 179);
+    list-style: none;
+}
+
+.tab {
+    font-size: 16px;
+    position: fixed;
+    top: 50px;
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#moment {
+    right: 3%;
+}
+
+#about {
+    right: 11%;
+}
+
+#review {
+    right: 18%;
+}
+
+header {
+    width: 400px;
+}
+
+main {
+    padding: 6rem;
+}
+
+li:hover {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: serif;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+}
+
+body {
+    padding: 2rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    /* width: 800px; */
+}
+
+#redbold {
+    color: red;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#redbold:hover {
+    color: yellow;
+}
+
+#fella {
+    color: red;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fella:hover {
+    color: yellow;
+}

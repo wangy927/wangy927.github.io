@@ -1,0 +1,87 @@
+body {
+    background-color: red;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.time {
+    position: absolute;
+    top: 10px;
+    left: 48%;
+    font-size: 25px;
+}
+
+.line {
+    padding: 3rem;
+    margin: 0;
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    font-size: 35px;
+}
+
+#loved {
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.dot {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#review-one {
+    top: 50%;
+    right: 30%;
+    font-size: 80px;
+    transform: rotate(45deg);
+}
+
+#review-one:hover {
+    color: black;
+}
+
+#review-two {
+    top: 20%;
+    left: 40%;
+    font-size: 60px;
+    transform: rotate(-15deg);
+}
+
+#review-two:hover {
+    color: black;
+}
+
+#review-three {
+    top: 30%;
+    left: 60%;
+    transform: rotate(-5deg);
+}
+
+#review-three:hover {
+    color: black;
+}
+
+#review-four {
+    top: 30%;
+    left: 10%;
+    transform: rotate(-5deg);
+}
+
+#review-four:hover {
+    color: black;
+}
