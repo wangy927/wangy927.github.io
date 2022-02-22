@@ -38,7 +38,7 @@ a:hover {
 
 .dot {
     position: absolute;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: serif;
     color: white;
     font-size: 50px;
     font-weight: bold;
