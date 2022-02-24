@@ -13,12 +13,12 @@ ul {
 }
 
 .tab {
-    font-size: 16px;
+    font-size: 15px;
     position: fixed;
     top: 50px;
     background-color: black;
     border: 1px solid white;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 a {
@@ -32,11 +32,15 @@ a {
 }
 
 #about {
-    right: 19%;
+    right: 29%;
 }
 
 #review {
     right: 11%;
+}
+
+#script {
+    right: 20%;
 }
 
 main {
@@ -49,13 +53,13 @@ li:hover {
 
 h1 {
     font-family: 'Wade Sans';
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 10px;
     line-height: 30px;
 }
 
 #redemption {
-    letter-spacing: 23px;
+    letter-spacing: 22px;
 }
 
 .info {
@@ -90,22 +94,26 @@ body {
     /* width: 800px; */
 }
 
-#redbold {
+#yes {
+    color: brown;
+}
+
+#yes:hover {
     color: red;
-    font-size: 50px;
+    font-size: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#redbold:hover {
-    color: yellow;
+#yes:active {
+    color: white;
 }
 
 #fella {
-    color: red;
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
 }
 
 #fella:hover {
-    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 300px;
 }

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Wade Sans';
+    src: url(./font/WadeSansLight/WadeSansLightPlain.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Wade Sans';
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 30px;
+}
+
+.tab {
+    font-size: 16px;
+    position: fixed;
+    top: 50px;
+    background-color: black;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#moment {
+    right: 2%;
+}
+
+#moment:hover {
+    color: yellow;
+}
+
+#about {
+    right: 19%;
+}
+
+#review {
+    right: 11%;
+}
