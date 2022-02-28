@@ -12,16 +12,10 @@ ul {
     list-style: none;
 }
 
-.tab {
-    font-size: 15px;
-    position: absolute;
-    top: 8px;
-    /* border: 1px solid white; */
-    padding: 0.3rem;
-}
-
 hr {
     border-bottom: 1px solid white;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -32,29 +26,14 @@ a {
 
 header {
     text-align: center;
-    padding: 1rem;
+    padding: 0;
 }
 
-#moment {
-    right: 2%;
-}
-
-#about {
-    right: 29%;
-}
-
-#review {
-    right: 11%;
-}
-
-#script {
-    right: 20%;
-}
-
-main {
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-top: 3rem;
+.navigation {
+    padding: 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
 }
 
 li:hover {
@@ -63,13 +42,13 @@ li:hover {
 
 h1 {
     font-family: 'Wade Sans';
-    font-size: 45px;
+    font-size: 3.8rem;
     letter-spacing: 10px;
     line-height: 30px;
 }
 
 #redemption {
-    letter-spacing: 22px;
+    letter-spacing: 24px;
 }
 
 .info {
@@ -82,36 +61,42 @@ h1 {
     font-size: 23px;
     line-height: 20rpx;
     position: absolute;
-    left: 35%;
+    left: 37.5rem;
+    top: 18.5rem;
+    font-size: 1.3rem;
 }
 
 #caption {
-    width: 300px;
-    line-height: 16px;
+    width: 500px;
+    line-height: 20px;
     color: grey;
     position: absolute;
-    left: 35%;
-    top: 250px;
+    left: 29rem;
+    top: 21rem;
+    font-size: 1.3rem;
 }
 
 h3 {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 2rem;
     font-family: serif;
     font-family: 'Wade Sans';
     letter-spacing: 3px;
 }
 
 body {
-    padding: 2rem;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.4rem;
     background-color: black;
     color: white;
     /* width: 800px; */
+}
+
+main {
+    padding: 11rem 7rem;
 }
 
 #yes {
