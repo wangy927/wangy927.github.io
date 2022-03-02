@@ -6,22 +6,36 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Hatolie';
+    src: url(./font/Hatolie.ttf);
+}
+
+img {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 2;
+    opacity: 95%;
+}
+
 ul {
     text-align: left;
     color: rgb(187, 179, 179);
     list-style: none;
 }
 
-hr {
+
+/* hr {
     border-bottom: 1px solid white;
     padding: 0;
     margin: 0;
-}
+} */
 
 a {
     text-decoration: none;
     color: white;
-    background-color: black;
+    /* background-color: black; */
 }
 
 header {
@@ -34,6 +48,42 @@ header {
     display: flex;
     justify-content: space-around;
     font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-left: 3rem;
+}
+
+.navigation li {
+    display: inline-block;
+    position: relative;
+}
+
+.navigation li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navigation li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navigation-background {
+    position: absolute;
+    top: 0;
+    margin: 0%;
+    padding: 0%;
+    background-color: #c21a1a;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
 }
 
 li:hover {
@@ -42,71 +92,104 @@ li:hover {
 
 h1 {
     font-family: 'Wade Sans';
-    font-size: 3.8rem;
-    letter-spacing: 10px;
-    line-height: 30px;
+    font-size: 2.6rem;
+    font-style: bold;
+    letter-spacing: 0.7rem;
+    line-height: 50px;
+    color: white;
+    padding-top: 13rem;
+    text-align: center;
+    /* color: white; */
+}
+
+.the {
+    letter-spacing: 0.5rem;
+    vertical-align: text-top;
+}
+
+.shawshank {
+    /* color: white; */
+    vertical-align: text-top;
 }
 
 #redemption {
-    letter-spacing: 24px;
+    letter-spacing: 1.4rem;
+    padding-top: 0rem;
+    line-height: 0rem;
+    text-align: center;
 }
 
 .info {
-    width: 400px;
+    width: 20rem;
+    text-align: center;
+    margin: 0;
 }
 
 #director {
     text-transform: uppercase;
-    color: brown;
+    color: c21a1a;
+    color: #b7b7b7;
     font-size: 23px;
-    line-height: 20rpx;
+    line-height: 20px;
     position: absolute;
-    left: 37.5rem;
-    top: 18.5rem;
-    font-size: 1.3rem;
+    left: 39%;
+    top: 47.8rem;
+    font-size: 0.95rem;
+    max-width: 50%;
 }
 
 #caption {
-    width: 500px;
-    line-height: 20px;
-    color: grey;
+    width: 50rem;
+    max-width: 50%;
+    line-height: 18px;
+    color: #b7b7b7;
     position: absolute;
-    left: 29rem;
-    top: 21rem;
-    font-size: 1.3rem;
+    left: 24%;
+    top: 49.5rem;
+    font-size: 0.95rem;
 }
 
 h3 {
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: serif;
     font-family: 'Wade Sans';
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
+}
+
+.dailogue {
+    padding: 0 4.6rem;
+}
+
+.character {
+    padding-left: 11rem;
+    padding-top: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 0px;
 }
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 0.96rem;
     background-color: black;
     color: white;
-    /* width: 800px; */
 }
 
 main {
-    padding: 11rem 7rem;
+    padding: 28rem 24rem;
 }
 
 #yes {
-    color: brown;
+    color: #c21a1a;
 }
 
 #yes:hover {
-    color: red;
-    font-size: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c21a1a;
+    font-size: 6rem;
+    line-height: 6rem;
 }
 
 #yes:active {
@@ -118,7 +201,21 @@ main {
 }
 
 #fella:hover {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    font-size: 300px;
+    color: #c21a1a;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+.red {
+    animation-name: turn-red;
+    animation-duration: 10s;
+}
+
+@keyframes turn-red {
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
 }

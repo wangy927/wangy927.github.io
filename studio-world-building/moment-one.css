@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Ogg';
+    src: url('./font/Ogg/OggLightItalic.woff2') format('woff2'), font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color: red;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    width: 200px;
+    font-family: monospace;
+    max-width: 100vh;
     animation: change-background 15s forwards;
 }
 
@@ -13,63 +20,95 @@ a {
 }
 
 .tab {
-    font-size: 15px;
+    font-size: 1rem;
     position: fixed;
     top: 30px;
     border: 1px solid white;
     padding: 0.3rem;
 }
 
-#moment {
-    right: 2%;
-}
-
-#about {
-    right: 29%;
-}
-
-#review {
-    right: 11%;
-}
-
-#script {
-    right: 20%;
-}
-
 ul {
+    padding: 5rem 14rem;
+    max-width: fit-content;
+    margin: 0;
     text-align: left;
     list-style: none;
 }
 
 .time {
-    position: fixed;
+    position: absolute;
     top: 10px;
-    left: 48%;
-    font-size: 25px;
+    left: 50%;
+    font-size: 1.2rem;
     right: 50px;
     top: 20px;
+    text-decoration: underline;
 }
 
 .line {
-    padding: rem;
+    margin: 0;
     margin: 0;
     position: absolute;
     top: 10%;
-    width: 100vh;
-    font-size: 320px;
-    line-height: 270px;
+    width: 80rem;
+}
+
+.ogg {
+    text-decoration: 0.5rem dotted black underline;
+}
+
+#ogbig {
+    text-decoration: 1.5rem dotted black underline;
+}
+
+#ogmedium {
+    text-decoration: 1rem dotted black underline;
+}
+
+
+/* #questionmark {
+    font-family: 'Ogg';
+    font-style: italic;
+    font-size: 4.6rem;
+} */
+
+.ogg:hover {
+    /* font-family: 'Ogg';
+    font-style: italic; */
+    color: black;
+}
+
+#big {
+    padding-bottom: 4rem;
+    padding-top: 0;
+    font-size: 6rem;
+    line-height: 3rem;
+    font-weight: 500;
 }
 
 #smaller {
-    font-size: 100px;
-    line-height: 100px;
-    width: 1400px;
+    font-size: 2.8rem;
+    padding-bottom: 3.2rem;
+    padding-top: 0;
+    line-height: 3rem;
+    max-width: fit-content;
+    margin: 0;
 }
 
-#smaller-two {
-    font-size: 50px;
-    line-height: 50px;
-    width: 1300px;
+.smaller-two {
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+    padding-top: 0;
+    line-height: 2rem;
+    margin: 0;
+}
+
+#one {
+    width: 620px;
+}
+
+#two {
+    width: 760px;
 }
 
 @keyframes change-background {
@@ -77,7 +116,7 @@ ul {
         background-color: black;
     }
     to {
-        background-color: red;
+        background-color: #c21a1a;
     }
 }
 
@@ -94,12 +133,29 @@ h2 {
 
 .comment {
     position: absolute;
-    width: 300px;
-    text-transform: uppercase;
-    font-size: 18px;
-    right: 320px;
-    top: 550px;
+    width: 155px;
+    font-size: 1rem;
     color: black;
-    line-height: 18px;
+    line-height: 16px;
     padding: 1rem;
+}
+
+#comment-1 {
+    right: 13px;
+    top: 550px;
+}
+
+#comment-2 {
+    left: 13px;
+    top: 30px;
+}
+
+.writer {
+    position: absolute;
+    font-size: 20px;
+    font-size: 3rem;
+    color: black;
+    right: 50px;
+    top: 480px;
+    font-weight: bold;
 }
