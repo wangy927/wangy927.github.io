@@ -16,7 +16,10 @@ body {
 a {
     text-decoration: none;
     color: white;
-    background-color: black;
+}
+
+a:hover {
+    color: black;
 }
 
 .tab {
@@ -58,7 +61,7 @@ ul {
 }
 
 #ogbig {
-    text-decoration: 1.5rem dotted black underline;
+    text-decoration: 1rem dotted black underline;
 }
 
 #ogmedium {
