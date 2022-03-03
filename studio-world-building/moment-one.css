@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Ogg';
-    src: url('./font/Ogg/OggLightItalic.woff2') format('woff2'), font-weight: normal;
+    src: url('./font/Ogg/OggLightItalic.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
