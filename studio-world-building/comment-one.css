@@ -1,3 +1,15 @@
-body {
-    background-color: black;
-}
+        body {
+            color: #c21a1a;
+            font-family: monospace;
+            max-width: 100vh;
+            animation: change-background 8s forwards
+        }
+        
+        @keyframes change-background {
+            from {
+                background-color: #c21a1a;
+            }
+            to {
+                background-color: black;
+            }
+        }

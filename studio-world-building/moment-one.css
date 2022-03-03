@@ -10,7 +10,7 @@ body {
     color: white;
     font-family: monospace;
     max-width: 100vh;
-    animation: change-background 15s forwards;
+    animation: change-background 6s forwards;
 }
 
 a {
