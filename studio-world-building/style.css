@@ -212,6 +212,10 @@ main {
     padding: 0;
 }
 
+#moment-three:hover {
+    left: 3em;
+}
+
 #fella {
     color: brown;
 }
