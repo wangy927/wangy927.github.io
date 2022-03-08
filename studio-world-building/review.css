@@ -69,7 +69,8 @@ a:hover {
 }
 
 main {
-    padding: 2em 24em;
+    padding-top: 6em;
+    padding-left: 20em;
 }
 
 h3 {
@@ -77,6 +78,10 @@ h3 {
     color: white;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h3:hover {
+    color: red;
 }
 
 .text {
