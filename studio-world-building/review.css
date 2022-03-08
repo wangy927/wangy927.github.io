@@ -67,3 +67,21 @@ a:hover {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+main {
+    padding: 2em 24em;
+}
+
+h3 {
+    padding: 1em 4em;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    padding: 0em 10em;
+    font-size: 0.96rem;
+    color: white;
+    font-family: monospace;
+}
