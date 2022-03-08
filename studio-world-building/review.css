@@ -15,12 +15,14 @@ ul {
 }
 
 .navigation {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
     padding: .5rem 0rem;
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
     margin-left: 3rem;
+    font-size: 0.96rem;
 }
 
 .navigation li {
