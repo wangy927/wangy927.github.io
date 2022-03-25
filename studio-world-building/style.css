@@ -229,13 +229,17 @@ main {
 .red {
     animation-name: turn-red;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes turn-red {
-    from {
+    0% {
         color: black;
     }
-    to {
+    50% {
         color: white;
+    }
+    100% {
+        color: black;
     }
 }
