@@ -124,6 +124,10 @@ h2 {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding: 1em;
+        margin: 0;
+    }
     h1 {
         font-size: 2em;
         padding: 1em;
