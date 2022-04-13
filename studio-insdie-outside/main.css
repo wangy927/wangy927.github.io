@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'BD Geminis';
+    src: url('./font/BDGeminis.woff2') format('woff2'), url('./font/BDGeminis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    height: 3.5rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 1.3rem;
+    border: 2px solid black;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    font-family: 'BD Geminis';
+    font-size: 3em;
+}
+
+h2 {
+    color: black;
+    font-family: 'BD Geminis';
+    font-size: 2.2em;
+}
+
+.navbox-fact {
+    margin: 0;
+    border-left: 2px solid black;
+    /* background-color: red; */
+    height: 8rem;
+    width: 1rem;
+    position: absolute;
+    right: 8rem;
+    top: 0.5rem;
+}
+
+main {
+    background-color: black;
+    height: 100vh;
+}

@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'BD Geminis';
-    src: url('BDGeminis.woff2') format('woff2'),
-        url('BDGeminis.woff') format('woff');
+    src: url('BDGeminis.woff2') format('woff2'), url('BDGeminis.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('Orbitron-SemiBold.woff2') format('woff2'),
-        url('Orbitron-SemiBold.woff') format('woff');
+    src: url('Orbitron-SemiBold.woff2') format('woff2'), url('Orbitron-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -18,8 +16,7 @@
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('Orbitron-Medium.woff2') format('woff2'),
-        url('Orbitron-Medium.woff') format('woff');
+    src: url('Orbitron-Medium.woff2') format('woff2'), url('Orbitron-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -27,10 +24,8 @@
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('Orbitron-Regular.woff2') format('woff2'),
-        url('Orbitron-Regular.woff') format('woff');
+    src: url('Orbitron-Regular.woff2') format('woff2'), url('Orbitron-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
