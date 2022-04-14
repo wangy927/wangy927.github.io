@@ -1,32 +1,3 @@
-//  console.log("Hello, Bookshelf!")
-
-//  var Airtable = require("airtable");
-//  console.log(Airtable);
-
-//  var Airtable = require('airtable');
-//  var base = new Airtable({ apiKey: 'keyErahsDfuJJsQzU' }).base('app8AbuUm7VR1Y4IO');
-
-//  base('books').select({
-//      // Selecting the first 3 records in Grid view:
-//      maxRecords: 10,
-//      view: "Grid view"
-//  }).eachPage(function page(records, fetchNextPage) {
-//      // This function (`page`) will get called for each page of records.
-
-//      records.forEach(function(record) {
-//          console.log('Retrieved', record.get('Name'));
-//      });
-
-//      // To fetch the next page of records, call `fetchNextPage`.
-//      // If there are more records, `page` will get called again.
-//      // If there are no more records, `done` will get called.
-//      fetchNextPage();
-
-//  }, function done(err) {
-//      if (err) { console.error(err); return; }
-//  });
-
-
 console.log("Hello, bookshelf");
 
 // load the airtable library, call it "Airtable"
@@ -39,7 +10,13 @@ var base = new Airtable({ apiKey: 'keyErahsDfuJJsQzU' }).base('app8AbuUm7VR1Y4IO
 
 //get the "books" table from the base, select ALL the records
 // specify the functions that will receive the data
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+// base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+
+
+//ADD VIEW to get a select "view" "books" from table from airtable database
+base("books").select({
+    view: "design"
+}).eachPage(gotPageOfBooks, gotAllBooks);
 
 // an empty array to hold our book data
 const books = [];
@@ -143,3 +120,36 @@ function showBook(book, div) {
     // but its not hurting to do it more than once
     bookDetail.classList.remove("hidden");
 }
+
+
+
+
+
+
+//  console.log("Hello, Bookshelf!")
+
+//  var Airtable = require("airtable");
+//  console.log(Airtable);
+
+//  var Airtable = require('airtable');
+//  var base = new Airtable({ apiKey: 'keyErahsDfuJJsQzU' }).base('app8AbuUm7VR1Y4IO');
+
+//  base('books').select({
+//      // Selecting the first 3 records in Grid view:
+//      maxRecords: 10,
+//      view: "Grid view"
+//  }).eachPage(function page(records, fetchNextPage) {
+//      // This function (`page`) will get called for each page of records.
+
+//      records.forEach(function(record) {
+//          console.log('Retrieved', record.get('Name'));
+//      });
+
+//      // To fetch the next page of records, call `fetchNextPage`.
+//      // If there are more records, `page` will get called again.
+//      // If there are no more records, `done` will get called.
+//      fetchNextPage();
+
+//  }, function done(err) {
+//      if (err) { console.error(err); return; }
+//  });
