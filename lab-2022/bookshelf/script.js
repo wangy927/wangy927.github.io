@@ -65,7 +65,6 @@ function showBooks() {
     });
 }
 
-
 // create the book-spines on the shelf
 function showBooks() {
     console.log("showBooks()");
