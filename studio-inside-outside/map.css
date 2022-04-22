@@ -12,7 +12,8 @@ body {
 
 img {
     opacity: 95%;
-    padding: 50rem 16rem;
+    width: 55rem;
+    padding: 6rem 16rem;
     z-index: -1;
 }
 

@@ -67,7 +67,7 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
-    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
     row-gap: 20px;
     background-color: black;
     padding: 20px;
@@ -80,40 +80,76 @@ main {
     text-align: center;
 }
 
-#item-yellow {
-    background-color: yellow;
+#item-one {
+    background-color: #FCD900;
 }
 
-#item-pink {
-    background-color: pink;
+#item-two {
+    background-color: #40DFEF;
 }
 
-#item-red {
+#item-three {
     background-color: red;
 }
 
-#item-blue {
-    background-color: blue;
+#item-four {
+    background-color: #93FFD8;
 }
 
-#item-green {
-    background-color: green;
+#item-five {
+    background-color: #83BD75;
 }
 
-#item-yellowgreen {
-    background-color: yellowgreen;
+#item-six {
+    background-color: #FFA1A1;
 }
 
-#item-purple {
-    background-color: purple;
+#item-seven {
+    background-color: #A85CF9;
 }
 
-#item-brown {
-    background-color: brown;
+#item-eight {
+    background-color: #890F0D;
 }
 
-#item-orange {
-    background-color: orange;
+#item-nine {
+    background-color: #0E3EDA;
+}
+
+#item-ten {
+    background-color: #FAFDD6;
+}
+
+#item-eleven {
+    background-color: #827397;
+}
+
+#item-twelve {
+    background-color: #22577E;
+}
+
+#item-thirteen {
+    background-color: #E8630A;
+}
+
+#item-fourteen {
+    background-color: #FFF89A;
+}
+
+#item-fifteen {
+    background-color: #BAFFB4;
+}
+
+#item-sixteen {
+    background-color: #74959A;
+}
+
+#item-seventeen {
+    background-color: #9ADCFF;
+}
+
+#item-eighteen {
+    background-color: #D82148;
 }
 
 @media only screen and (max-width: 600px) {
