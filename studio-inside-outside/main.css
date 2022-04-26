@@ -6,6 +6,19 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Orbitron';
+    src: url('./font/Orbitron-Regular.woff2') format('woff2'), url('./font/Orbitron-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {
+    width: 300px;
+    height: 290px;
+}
+
 body {
     background-color: rgb(202, 202, 202);
     /* background-color: black; */
@@ -22,6 +35,8 @@ a:hover {
 
 nav {
     display: flex;
+    position: fixed;
+    width: 85.3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -52,11 +67,11 @@ h2 {
 .navbox-fact {
     margin: 0;
     border-left: 3px solid black;
-    height: 5.5rem;
+    height: 5rem;
     width: 1rem;
     position: absolute;
     right: 8rem;
-    top: 0.5rem;
+    top: 0rem;
 }
 
 main {
@@ -74,66 +89,71 @@ main {
 }
 
 .grid-item {
-    background-color: white;
+    background-color: black;
     border: 1.5px solid rgba(0, 0, 0, 0.8);
     font-size: 30px;
     text-align: center;
+    margin: 0;
+}
+
+.grid-item:hover {
+    background-color: white;
 }
 
 #item-one {
-    background-color: #FCD900;
+    background-color: #ffe016;
 }
 
 #item-two {
-    background-color: #40DFEF;
+    background-color: #4ef0ff;
 }
 
 #item-three {
-    background-color: red;
+    background-color: #bbff73;
 }
 
 #item-four {
-    background-color: #93FFD8;
+    background-color: #ffd0cf;
 }
 
 #item-five {
-    background-color: #83BD75;
+    background-color: #abc0bc;
 }
 
 #item-six {
-    background-color: #FFA1A1;
+    background-color: #ff95d1;
 }
 
 #item-seven {
-    background-color: #A85CF9;
+    background-color: #459f54;
 }
 
 #item-eight {
-    background-color: #890F0D;
+    background-color: #f63632;
 }
 
 #item-nine {
-    background-color: #0E3EDA;
+    background-color: #6c7a3b;
 }
 
 #item-ten {
-    background-color: #FAFDD6;
+    background-color: #ddd6fd;
 }
 
 #item-eleven {
-    background-color: #827397;
+    background-color: #f6f1b1;
 }
 
 #item-twelve {
-    background-color: #22577E;
+    background-color: #1978bd;
 }
 
 #item-thirteen {
-    background-color: #E8630A;
+    background-color: #48c8c0;
 }
 
 #item-fourteen {
-    background-color: #FFF89A;
+    background-color: #6041ea;
 }
 
 #item-fifteen {
@@ -141,15 +161,37 @@ main {
 }
 
 #item-sixteen {
-    background-color: #74959A;
+    background-color: #f6f8e1;
 }
 
 #item-seventeen {
-    background-color: #9ADCFF;
+    background-color: #f0aa39;
 }
 
 #item-eighteen {
-    background-color: #D82148;
+    background-color: #bd45d0;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    padding: 1em 0em;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* h3:hover {
+    text-decoration: underline;
+} */
+
+.info {
+    font-family: 'Orbitron';
+    font-size: 0.6em;
+    padding-top: 12rem;
+    text-align: center;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {

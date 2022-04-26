@@ -6,6 +6,19 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Orbitron';
+    src: url('./font/Orbitron-Regular.woff2') format('woff2'), url('./font/Orbitron-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {
+    width: 300px;
+    height: 290px;
+}
+
 body {
     background-color: rgb(202, 202, 202);
     /* background-color: black; */
@@ -22,6 +35,8 @@ a:hover {
 
 nav {
     display: flex;
+    position: fixed;
+    width: 85.3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -52,11 +67,11 @@ h2 {
 .navbox-fact {
     margin: 0;
     border-left: 3px solid black;
-    height: 5.5rem;
+    height: 5rem;
     width: 1rem;
     position: absolute;
     right: 8rem;
-    top: 0.5rem;
+    top: 0rem;
 }
 
 main {
@@ -67,17 +82,18 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
-    grid-template-rows:  300px 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
     row-gap: 20px;
     background-color: black;
     padding: 20px;
 }
 
 .grid-item {
-    background-color: white;
-    border: 1.5px solid black;
+    background-color: black;
+    border: 1.5px solid rgba(0, 0, 0, 0.8);
     font-size: 30px;
     text-align: center;
+    margin: 0;
 }
 
 #item-black {
