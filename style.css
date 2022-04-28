@@ -92,6 +92,7 @@ h1 {
 #italic {
     font-family: serif;
     font-style: italic;
+    color: rgb(255, 208, 216);
 }
 
 #italic:hover {
