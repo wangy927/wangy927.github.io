@@ -43,6 +43,10 @@ h3 {
     width: 5rem;
     font-size: 1.2em;
     margin: 5rem 82rem;
+    font-size: 1.5em;
+    border: 2px solid black;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 h3:hover {
@@ -63,34 +67,16 @@ li:hover {
     font-size: 1.5em;
 }
 
-
-/* 
 #lab {
-    position: absolute;
-    top: 250px;
-    left: 500px;
+    top: 4rem;
+    right: 20rem;
 }
 
-#studio {
-    position: absolute;
-    top: 250px;
-    left: 90px;
+#lab:hover {
+    background-color: black;
+    color: rgb(255, 133, 154);
+    font-size: 1em;
+    transform: rotate(360deg);
+    top: 3rem;
+    right: 18rem;
 }
-
-.studio-list {
-    position: absolute;
-    top: 320px;
-    left: 50px;
-}
-
-.lab-exercise {
-    position: absolute;
-    top: 320px;
-    left: 460px;
-}
-
-.lab-assignment {
-    position: absolute;
-    top: 450px;
-    left: 460px;
-} */

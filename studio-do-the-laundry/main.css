@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Wigglye';
+    src: url('./font/wigglye/Wigglye-Regular.woff2') format('woff2'), url('./font/wigglye/Wigglye-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    position: absolute;
+    background-color: #ED3276;
+    border: 12px solid #cd2a66;
+    border-style: ridge;
+    padding: 0;
+    margin: 1.6rem 2.5rem;
+    border-radius: 2rem;
+    height: 86.5vh;
+    width: 93%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.background-block {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+.block1 {
+    background-color: #36CE00;
+    margin: 0;
+}
+
+.block2 {
+    background-color: #2AB8D7;
+    margin: 0;
+}
+
+.block3 {
+    background-color: #ED3276;
+    margin: 0;
+}
+
+.block4 {
+    background-color: #FF8412;
+    margin: 0;
+}
