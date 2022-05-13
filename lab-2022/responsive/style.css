@@ -196,8 +196,8 @@ main {
 @media screen and (min-width: 1200px) {
     body {
         margin: 0;
-        background-color: #c54481;
-        color: #5de5de;
+        background-color: #c0236c;
+        color: #53f7ef;
     }
     header {
         padding: 1rem;

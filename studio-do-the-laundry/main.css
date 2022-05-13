@@ -1,6 +1,14 @@
 @font-face {
-    font-family: 'Wigglye';
-    src: url('./font/wigglye/Wigglye-Regular.woff2') format('woff2'), url('./font/wigglye/Wigglye-Regular.woff') format('woff');
+    font-family: 'Humanoid straight';
+    src: url('./font/pack/Humanoidstraight.woff2') format('woff2'), url('./font/pack/Humanoidstraight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humanoid';
+    src: url('./font/pack/Humanoid.woff2') format('woff2'), url('./font/pack/Humanoid.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,17 +18,29 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #ffbcd4;
+    background-color: rgb(16, 16, 16);
+}
+
+input {
+    font-size: 2em;
+    margin: 3em 6em;
+    color: #ED3276;
+    background-color: #ED3276;
+    text-transform: uppercase;
+    list-style-type: none;
+    width: 3rem;
 }
 
 .container {
     position: absolute;
     background-color: #ED3276;
-    border: 12px solid #cd2a66;
+    border: 10px solid #cd2a66;
     border-style: ridge;
     padding: 0;
     margin: 1.6rem 2.5rem;
     border-radius: 2rem;
-    height: 86.5vh;
+    height: 83vh;
     width: 93%;
 }
 
@@ -58,4 +78,48 @@ h1 {
 .block4 {
     background-color: #FF8412;
     margin: 0;
+}
+
+.calculating {
+    font-family: 'Humanoid';
+    font-size: 2.1em;
+    position: absolute;
+    right: 3rem;
+    bottom: 1.9rem;
+    background: -webkit-linear-gradient( left, #FF8412 0%, #ED3276 25%, #2AB8D7 50%, #36CE00 100%) repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    animation: masked 8s linear infinite;
+    animation: masked 8s linear infinite;
+    animation: masked 8s linear infinite;
+}
+
+@keyframes masked {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -8000px 1000px;
+    }
+}
+
+.element {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    margin: 6rem 10rem;
 }
