@@ -143,3 +143,19 @@ h2 {
     background-color: rgb(192, 192, 192);
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    h1 {
+        color: black;
+        background-color: white;
+        font-family: 'Humanoid straight';
+        letter-spacing: 0.5rem;
+        font-size: 2em;
+        padding: 0.8rem 0;
+        text-align: center;
+        border: 6px solid white;
+        border-style: outset;
+        margin: 3rem 5rem;
+        border-radius: 25px;
+    }
+}
