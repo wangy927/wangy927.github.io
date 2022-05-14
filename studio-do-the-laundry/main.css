@@ -245,3 +245,56 @@ button {
 .current-operand {
     font-family: 'Balls on the rampage';
 }
+
+@media screen and (max-width: 767px) {
+    .calculating {
+        font-size: 1.3em;
+        right: 1rem;
+        bottom: 1rem;
+    }
+    button {
+        border-radius: 20px;
+        text-decoration: none;
+        border: 5px solid #ED3276;
+        border-style: outset;
+        display: inline-block;
+    }
+    .calculator-grid {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(4, 7rem);
+        grid-template-rows: minmax(140px, auto) repeat(5, 99px);
+    }
+    .calculator-grid>button {
+        cursor: pointer;
+        font-size: 2em;
+        border: 1px, solid #ED3276;
+        outline: none;
+        background-color: #ED3276;
+        font-family: 'pacman';
+        color: #ffa6c7;
+        color: black;
+    }
+    .output .previous-operand {
+        color: black;
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+    .output .current-operand {
+        color: black;
+        font-size: 6.5rem;
+    }
+    .calculator-grid {
+        border: 10px solid #ED3276;
+        border-style: ridge;
+        padding: 0;
+        margin: 0rem 2.5rem;
+        border-radius: 2rem;
+        height: 83vh;
+        width: 90%;
+        z-index: -1;
+        background: -webkit-linear-gradient( left, #FF8412 0%, #ED3276 25%, #2AB8D7 50%, #36CE00 75%, #FF8412 100%) repeat;
+        animation: masked 5s linear infinite;
+    }
+}
