@@ -14,6 +14,23 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Balls on the rampage';
+    src: url('./font/pack/Ballsontherampage.woff2') format('woff2'), url('./font/pack/Ballsontherampage.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pacman';
+    src: url('./font/pacman.ttf');
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,17 +55,37 @@ h1 {
     background-color: white;
     font-family: 'Humanoid straight';
     letter-spacing: 0.5rem;
-    font-size: 2.2em;
+    font-size: 2em;
     padding: 0.8rem 0;
     text-align: center;
     border: 6px solid white;
     border-style: outset;
-    margin: 3rem 32rem;
+    margin: 3rem 34rem;
     border-radius: 25px;
 }
 
 h1:hover {
     font-family: 'Humanoid';
+    color: white;
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+.smileface {
+    color: white;
+    color: linear-gradient(84deg, rgba(255, 132, 18, 1) 0%, rgba(237, 50, 118, 1) 33%, rgba(42, 184, 215, 1) 66%, rgba(54, 206, 0, 1) 100%);
+    font-size: 20em;
+    text-align: center;
+    padding-top: 6rem;
+    font-family: 'pacman';
+    animation: blinker 1s step-start infinite;
+    animation-delay: 0s;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 body {
@@ -77,11 +114,6 @@ h2 {
     position: absolute;
     top: 1.5rem;
     left: 59rem;
-}
-
-h2:hover {
-    color: white;
-    background-color: rgb(30, 30, 30);
 }
 
 .background-block {
